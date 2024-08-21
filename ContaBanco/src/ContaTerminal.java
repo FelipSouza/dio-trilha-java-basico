@@ -28,7 +28,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite seu nome !");
 
         //Obter pela scanner os valores digitados no terminal
-        scanner.nextLine();
+        scanner.nextLine(); //Limpar o buffer após next()
         nomeCliente = scanner.nextLine();
 
         //scanner.nextLine(); //Limpar o buffer após nextLine() acima
